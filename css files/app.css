@@ -246,6 +246,7 @@
   font-size: 15px;
   color: #555555;
   font-weight: 400;
+  margin: 0;
   padding-left: 5px;
   line-height: 1;
 }
@@ -688,13 +689,100 @@ p {
 /* End Our Blog */
 /* Start  Contact Us */
 
+.contact_us {
+  padding: 100px 0;
+}
 
+.contact_us form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
 
+.contact_us form input,
+textarea {
+  width: 100%;
+  height: 40px;
+  margin: auto;
+  outline: none;
+  border-radius: 5px;
+  border: solid 1px var(--title-text-color);
+  padding: 10px 20px;
+  font-size: 15px;
+  margin-bottom: 30px;
+  background-color: #ffffff;
+}
+.contact_us form input:focus,
+textarea:focus {
+  border: 1px solid var(--main-text-color);
+}
 
+.contact_us form .main_input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 100%;
+  height: 40px;
+  gap: 15px;
+}
 
+.contact_us form textarea {
+  height: 60px;
+  max-width: 100%;
+}
 
-
-
-
+.contact_us button {
+  cursor: pointer;
+  background-color: #ff305b;
+  border-color: #ff305b;
+  color: #ffffff;
+  opacity: 1;
+  padding: 0 20px;
+  height: 40px;
+  line-height: 38px;
+  text-transform: uppercase;
+  transition: 0.3s ease-in-out;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  align-self: flex-start;
+}
 /* End Contact Us */
+/* Start footer */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #333333;
+  padding: 45px 0;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+footer ul li a {
+  font-size: 25px;
+  color: #ffffff;
+  transition: var(--main-transition);
+}
+footer ul li a:hover {
+  color: var(--main-text-color);
+}
+footer p{
+color: var(--background-color);
+}
+footer p span{
+  color: var(--main-text-color);
+  font-weight: bold;
+}
 
+/* End footer */
