@@ -38,8 +38,27 @@
         </ul>
       </div>
     </header>
+    <header class="header n_2">
+      <div class="logo">
+        <h3>Fokir</h3>
+      </div>
+      <div class="navbar">
+        <div>
+          <i class="fa-solid fa-bars"></i>
+          <ul>
+            <li class="active"><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">portfolio</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
     <!-- start landing -->
-    <section class="landing">
+    <section id="home" class="landing">
       <div class="container">
         <div class="content">
           <p class="p_1">Hello i'm</p>
@@ -52,22 +71,25 @@
     </section>
     <!-- end landing -->
     <!-- start about-area -->
-    <section class="about-area">
+    <section id="about" class="about-area">
       <div class="container">
         <div class="cover_box">
-          <img src="./images/work-7.jpg" alt="Not found" />
+          <img src="./images/main Image.png" alt="Not found" />
         </div>
         <div class="content">
           <h2>Hello,</h2>
           <p class="description">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+            I’m Full Stack Developer with strong experience in building modern,
+            scalable web applications using the MERN stack (MongoDB, Express.js,
+            React.js, and Node.js). I specialize in developing responsive
+            front-end interfaces with React and building robust, APIs and
+            backend systems with Express and Node.js. Skilled in state
+            management techniques including useState, useReducer, Context API,
+            and React Query. I prioritize clean, maintainable code and apply
+            performance optimization techniques such as useCallback, useMemo,
+            and efficient routing with react-router.
           </p>
+
           <div class="profile-about">
             <ul>
               <li>
@@ -76,7 +98,7 @@
               </li>
               <li>
                 <span>Age:</span>
-                <p>26 Year</p>
+                <p>21 Year</p>
               </li>
               <li>
                 <span>Freelance:</span>
@@ -105,7 +127,7 @@
     </section>
     <!-- End about-area -->
     <!-- Start Services -->
-    <div class="services">
+    <div class="services" id="services">
       <div class="container">
         <div class="section_title">
           <h2>Our Services</h2>
@@ -154,7 +176,7 @@
     <!-- End Services -->
 
     <!--Start Our Portfolio -->
-    <div class="our_portfolio">
+    <div class="our_portfolio" id="portfolio">
       <div class="container">
         <div class="section_title">
           <h2>Our Portfolio</h2>
@@ -258,9 +280,6 @@
               </div>
             </a>
           </div>
-          <div class="project">
-            <canvas></canvas>
-          </div>
         </div>
       </div>
     </div>
@@ -301,14 +320,16 @@
     <!-- End target -->
     <!-- Start Feedback -->
 
-    <div class="feedback">
+    <div class="feedback" id="testimonial">
       <div class="container">
         <div class="section_title">
           <h2>Client's Feedback</h2>
         </div>
         <div class="customers_feedback">
           <div class="customer_card">
-            <img src="./images/feedback_1_image.jpg" alt="" />
+            <div>
+              <img src="./images/feedback_1_image.jpg" alt="" />
+            </div>
             <div class="info_card">
               <h2>Hazem Mahmoud</h2>
               <h3><i class="fa-solid fa-location-dot"></i>Egypt</h3>
@@ -336,7 +357,7 @@
 
     <!-- Start Our Blog -->
 
-    <div class="our_blog">
+    <div class="our_blog" id="blog">
       <div class="container">
         <div class="section_title">
           <h2>Our Blog</h2>
@@ -401,7 +422,7 @@
 
     <!-- End Our Blog -->
     <!-- Start Contact Us -->
-    <div class="contact_us">
+    <div class="contact_us" id="contact">
       <div class="container">
         <div class="section_title">
           <h2>Contact Us</h2>
